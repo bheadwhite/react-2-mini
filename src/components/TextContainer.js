@@ -17,6 +17,7 @@ export default class TextContainer extends Component {
 
   render() {
     return (
+      
       <div className="textContainer">
         <textarea 
           style={{color: this.props.fontColor, fontFamily: this.props.fontFamily, fontSize: this.props.fontSize }}
